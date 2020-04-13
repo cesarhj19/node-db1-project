@@ -1,3 +1,10 @@
+/* eslint-disable prefer-arrow-callback */
+/* eslint-disable func-names */
+/* eslint-disable linebreak-style */
+/* eslint-disable no-unused-vars */
+/* eslint-disable linebreak-style */
+/* eslint-disable space-before-function-paren */
+/* eslint-disable linebreak-style */
 
 exports.seed = function(knex, Promise) {
   return knex('accounts').truncate()
